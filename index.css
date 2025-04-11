@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('background.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Orbitron', sans-serif;
+  }
+  
+  .navbar {
+    height: 50px;
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(15px); 
+    padding: 10px 20px;
+    border-radius: 12px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.681);
+    font-weight: bolder;
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: transform 0.2s ease;
+  }
+
+  .navbar-left:hover{
+    transform: scale(1.05);
+  }
+  
+  .logo {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+  
+  .title {
+    font-size: xx-large;
+    font-weight: 20px;
+    color: #000000;
+  }
+  
+  .navbar-right {
+    display: flex;
+    gap: 20px;
+    font-size: 1.2rem;
+    color: #000000;
+  }
+  
+  .section-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 13px;
+    margin-top: 30px;
+  }
+  
+  .section-box {
+    flex: 1;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    backdrop-filter: blur(15px); 
+    -webkit-backdrop-filter: blur(10px); 
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.677);
+    transition: transform 0.2s ease;
+  }
+  
+  
+  .section-box:hover {
+    transform: scale(1.02);
+  }
+  
+  .section-box h2 {
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: #000000;
+    margin-bottom: 15px;
+    border-bottom: 3px solid #000000;
+    padding-bottom: 10px;
+  }
+  
+  .action-btn {
+    margin-top: 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 800;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    font-family: 'Orbitron', sans-serif;
+  }
+  
+  .action-btn:hover {
+    background-color: #ffffff;
+    color: #000;
+  }
+  
+  .footer-bar {
+    height: 80px;
+    background: rgba(255, 255, 255, 0.107);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(10px);
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 15px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000000;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.677);
+  }
+  
+
+  .bottom-fade {
+    position: relative;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    height: 110px;
+    background: linear-gradient(to top, #000 50%, transparent 100%);
+    pointer-events: none;
+    z-index: 1;
+  }
+  

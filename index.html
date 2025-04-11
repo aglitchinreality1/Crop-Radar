@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CropRadar</title>
+  <link rel="stylesheet" href="index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    @media (max-width: 1024px) {
+      .section-container {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .section-box {
+        width: 90%;
+        margin-bottom: 20px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .navbar {
+        flex-direction: column;
+        height: auto;
+        padding: 15px 10px;
+        gap: 10px;
+      }
+
+      .navbar-right {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <div class="navbar">
+    <div class="navbar-left">
+      <img src="icon.svg" alt="Logo" class="logo"> <!-- optional logo -->
+      <span class="title">CropRadar</span>
+    </div>
+    <div class="navbar-right">
+      <span id="weather">🌤️ Loading weather...</span>
+      <span id="time">⏰ --:--:--</span>
+    </div>
+  </div>
+
+  <div class="section-container">
+    <!-- Nutrient Analysis Box -->
+    <div class="section-box">
+      <h2>Nutrient Analysis</h2>
+      <img src="cropai.png" alt="AI Analysis" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px;">
+      <p style="margin-top: 15px; font-size: larger;">Input field data manually or auto-collect from sensors. Let our AI detect nutrient imbalances in seconds.</p>
+      <button class="action-btn">Analyse Now</button>
+    </div>
+  
+    <!-- Field Drone Control Box -->
+    <div class="section-box">
+      <h2>Drone Control</h2>
+      <img src="drone.png" alt="Drone Control" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px;">
+      <p style="margin-top: 15px; font-size: larger;">Select a zone and launch drones for irrigation, pesticide spray, or health checks – straight from your screen.</p>
+      <button class="action-btn">Send Drones</button>
+    </div>
+  
+    <!-- Crop Explorer Box -->
+    <div class="section-box">
+      <h2>Crop Explorer</h2>
+      <img src="disease.jpg" alt="Crop Info" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px;">
+      <p style="margin-top: 15px; font-size: larger;">Browse common crops, identify vulnerabilities, and learn how to keep them thriving with AI-backed insights.</p>
+      <button class="action-btn">View Catalogue</button>
+    </div>
+  </div>
+
+  <div class="bottom-fade"></div>
+  
+  <script src="index.js"></script>
+</body>
+</html>
