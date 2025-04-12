@@ -1,0 +1,314 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('background.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Orbitron', sans-serif;
+  }
+  
+  .navbar {
+    height: 50px;
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(15px); 
+    padding: 10px 20px;
+    border-radius: 12px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.681);
+    font-weight: bolder;
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: transform 0.2s ease;
+  }
+
+  .navbar-left:hover{
+    transform: scale(1.05);
+  }
+  
+  .logo {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+  
+  .title {
+    font-size: xx-large;
+    font-weight: 20px;
+    color: #000000;
+  }
+  
+  .navbar-right {
+    display: flex;
+    gap: 20px;
+    font-size: 1.2rem;
+    color: #000000;
+  }
+
+  .bottom-fade {
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    height: 110px;
+    background: linear-gradient(to top, #000 50%, transparent 100%);
+    pointer-events: none;
+    z-index: 1;
+  }
+  
+
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      height: auto;
+      padding: 15px 10px;
+      gap: 10px;
+    }
+
+    .navbar-right {
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      font-size: 1rem;
+    }
+    
+  }
+
+  .big-section-box {
+    margin: 10px;
+    margin-top: 30px;
+    padding: 30px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.6);
+    font-family: 'Orbitron', sans-serif;
+    color: #000;
+    text-align: center;
+  }
+
+  .big-section-box h2 {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #000;
+    padding-bottom: 10px;
+  }
+  
+
+  .prediction-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 30px;
+  }
+  
+  .field-selector,
+  .ai-results {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .field-selector h2,
+  .ai-results h2 {
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: #000000;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #000000;
+    padding-bottom: 8px;
+  }
+  
+  .field-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .field-box {
+    background: 
+      linear-gradient(rgba(180, 208, 139, 0.7), rgba(184, 255, 77, 0.7)),
+      url('crops.jpg') center/cover no-repeat;
+    border: 2px dashed #2e1200;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    color: #000000;
+    border-radius: 10px;
+    transition: transform 0.2s ease;
+    cursor: pointer;
+    font-size: large;
+  }
+  
+  
+  .field-box:hover {
+    transform: scale(1.05);
+    background-color: #cce5ac;
+  }
+  
+
+  .ai-result-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+  }
+  
+  .default-text {
+    font-size: 1.3rem;
+    color: #000;
+    font-weight: bold;
+  }
+  
+  .field-selected {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    animation: slideFade 0.4s ease forwards;
+    margin-top: 10px;
+    justify-content: flex-start;
+    width: 100%;
+  }
+  
+  
+  .scan-btn {
+    flex: 1;
+    background-color: #000;
+    color: #fff;
+    padding: 12px 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Orbitron', sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+  }
+  
+  .scan-btn:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+  }
+  
+  @keyframes slideFade {
+    from {
+      opacity: 0;
+      transform: translateX(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .big-section-box{
+      margin-bottom: 120px;
+    }
+
+    #result-table {
+      overflow-x: auto; /* Enable horizontal scrolling */
+      white-space: nowrap; /* Prevent the table from wrapping */
+    }
+  
+    #result-table td, #result-table th {
+      min-width: 120px; /* Set a minimum width for table cells to ensure they don't get compressed */
+    }
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .result-table {
+    margin-top: 20px;
+    animation: fadeIn 0.5s ease forwards;
+    width: 100%;
+    overflow-x: hidden;
+    border-radius: 10px;
+  }
+  
+  .result-table table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+  }
+  
+  .result-table th {
+    background-color: #000;
+    color: white;
+    padding: 12px;
+    font-size: 1rem;
+  }
+  
+  .result-table td {
+    background-color: #b4d08b;
+    color: #2c421e;
+    padding: 12px;
+    font-weight: bold;
+    border-bottom: 2px solid #557c3e;
+    font-size: 1rem;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+
+  .hidden-left {
+    display: none; /* Keeps it hidden initially */
+  }
+  
+  #condition-result {
+    display: flex;
+    margin-top: 1rem;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    align-items: center; /* Centers content vertically */
+  }
+  
+  #condition-result div {
+    display: flex;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    padding: 10px;
+  }
+  
+  #condition-result .result-label {
+    flex: 1;
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+  
+  #condition-text {
+    flex: 3;
+    padding: 10px;
+    text-align: left;
+    color: black;
+    border-radius: 10px;
+    margin: 5px;
+  }
+  
+
+.result-label{
+  border-radius: 10px;
+}

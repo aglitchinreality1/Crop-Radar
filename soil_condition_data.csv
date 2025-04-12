@@ -1,0 +1,501 @@
+Nitrogen,Phosphorus,Potassium,pH,Moisture,Condition
+74,39,97,6.0,38,Low Phosphorus
+95,38,92,5.7,57,Low Phosphorus
+99,43,109,7.2,60,High pH
+135,54,99,6.8,40,Healthy
+140,79,77,6.6,39,Healthy
+60,43,107,5.8,48,Healthy
+84,38,70,7.2,52,Low Phosphorus
+58,47,55,6.3,49,Low Nitrogen
+136,32,101,7.2,46,Low Phosphorus
+136,39,44,5.6,22,Low Phosphorus
+106,35,81,7.2,49,Low Phosphorus
+79,48,59,5.9,30,Healthy
+144,60,40,7.3,25,Low Potassium
+80,38,57,6.2,51,Low Phosphorus
+128,55,81,5.6,46,Healthy
+147,75,41,6.1,60,Low Potassium
+61,73,105,5.7,38,Healthy
+78,44,103,7.1,51,High pH
+116,54,92,5.9,43,Healthy
+141,62,59,6.5,38,Healthy
+123,62,75,5.9,54,Healthy
+85,50,78,7.3,60,High pH
+82,39,83,6.6,37,Low Phosphorus
+125,36,68,6.0,24,Low Phosphorus
+106,48,42,5.6,60,Low Potassium
+107,39,44,7.5,57,Low Phosphorus
+127,51,87,6.5,60,Healthy
+113,53,51,6.5,29,Healthy
+141,60,44,7.5,44,Low Potassium
+97,30,104,6.1,51,Low Phosphorus
+134,35,91,7.5,40,Low Phosphorus
+61,35,68,6.9,36,Low Phosphorus
+51,47,68,6.1,40,Low Nitrogen
+82,32,70,6.7,38,Low Phosphorus
+80,37,77,6.2,24,Low Phosphorus
+95,38,51,6.6,45,Low Phosphorus
+116,52,106,7.2,59,High pH
+147,47,56,6.1,29,Healthy
+54,52,55,5.6,33,Low Nitrogen
+80,39,44,6.2,53,Low Phosphorus
+150,62,74,6.8,50,Healthy
+98,59,81,5.5,50,Healthy
+120,48,52,5.7,58,Healthy
+127,49,110,6.5,25,Healthy
+78,57,103,6.9,53,Healthy
+130,35,69,6.5,54,Low Phosphorus
+90,41,93,5.9,26,Healthy
+113,53,105,5.8,32,Healthy
+66,48,68,6.7,28,Healthy
+126,54,54,6.4,56,Healthy
+91,73,91,5.8,27,Healthy
+91,75,49,6.8,45,Low Potassium
+135,52,68,6.9,20,Healthy
+98,57,82,5.6,42,Healthy
+146,76,60,6.9,21,Healthy
+145,57,49,7.3,21,Low Potassium
+140,37,43,6.9,58,Low Phosphorus
+114,80,42,6.4,29,Low Potassium
+117,66,73,6.9,41,Healthy
+132,58,47,5.7,45,Low Potassium
+71,38,55,7.3,42,Low Phosphorus
+130,74,87,6.7,40,Healthy
+78,48,93,6.1,35,Healthy
+67,54,88,6.6,49,Healthy
+123,37,93,6.5,25,Low Phosphorus
+93,34,81,6.2,46,Low Phosphorus
+143,48,85,6.1,46,Healthy
+135,44,57,6.4,48,Healthy
+124,53,86,5.7,33,Healthy
+134,68,41,7.2,30,Low Potassium
+61,52,110,5.8,26,Healthy
+97,72,87,7.4,48,High pH
+97,40,44,6.2,45,Low Potassium
+69,49,61,7.2,29,High pH
+125,36,84,6.5,27,Low Phosphorus
+71,34,69,6.2,29,Low Phosphorus
+54,47,70,7.4,54,Low Nitrogen
+61,47,51,7.1,56,High pH
+66,38,58,6.7,34,Low Phosphorus
+78,75,48,5.6,40,Low Potassium
+130,46,65,6.1,32,Healthy
+85,65,53,6.6,46,Healthy
+132,65,101,6.0,46,Healthy
+96,65,75,7.1,38,High pH
+103,49,83,7.1,37,High pH
+68,68,73,7.0,23,Healthy
+116,51,92,7.2,48,High pH
+105,79,76,7.2,34,High pH
+102,35,68,6.4,24,Low Phosphorus
+114,62,44,5.6,29,Low Potassium
+141,51,56,7.4,28,High pH
+133,40,107,6.0,56,Healthy
+131,55,79,7.0,50,Healthy
+120,34,43,7.2,36,Low Phosphorus
+113,54,105,7.2,50,High pH
+51,43,109,5.8,53,Low Nitrogen
+141,68,102,6.4,48,Healthy
+57,65,102,5.8,36,Low Nitrogen
+135,60,104,7.0,58,Healthy
+146,68,104,6.1,35,Healthy
+95,39,40,5.5,45,Low Phosphorus
+66,73,54,6.6,33,Healthy
+106,50,93,5.9,54,Healthy
+104,36,88,6.0,51,Low Phosphorus
+103,44,84,5.7,54,Healthy
+53,39,40,6.6,46,Low Nitrogen
+101,68,71,6.7,35,Healthy
+57,60,104,6.6,38,Low Nitrogen
+53,65,85,7.1,32,Low Nitrogen
+113,75,55,6.1,38,Healthy
+86,45,75,5.9,30,Healthy
+79,58,81,5.9,56,Healthy
+136,71,42,7.2,55,Low Potassium
+70,38,109,5.8,56,Low Phosphorus
+122,41,64,6.7,47,Healthy
+132,65,45,6.2,48,Low Potassium
+114,74,91,6.5,57,Healthy
+107,44,82,6.1,54,Healthy
+77,42,105,6.1,27,Healthy
+64,80,85,5.7,42,Healthy
+114,47,42,5.8,23,Low Potassium
+135,74,61,6.7,54,Healthy
+70,42,101,5.6,21,Healthy
+142,38,58,5.9,32,Low Phosphorus
+64,54,72,5.8,24,Healthy
+85,59,76,6.6,46,Healthy
+84,65,49,7.5,51,Low Potassium
+138,34,100,6.0,59,Low Phosphorus
+100,46,55,6.5,56,Healthy
+63,57,52,6.9,37,Healthy
+104,32,109,5.5,52,Low Phosphorus
+67,38,63,6.3,47,Low Phosphorus
+75,73,84,5.8,52,Healthy
+147,67,47,5.8,47,Low Potassium
+79,54,42,5.7,48,Low Potassium
+101,54,82,6.8,52,Healthy
+95,40,49,5.9,38,Low Potassium
+95,46,86,6.0,58,Healthy
+145,54,96,5.8,20,Healthy
+122,80,70,6.7,46,Healthy
+117,40,86,5.5,59,Healthy
+121,55,106,6.9,33,Healthy
+134,62,53,7.2,41,High pH
+144,55,106,5.7,55,Healthy
+147,78,48,5.6,43,Low Potassium
+77,72,110,7.5,50,High pH
+58,38,103,5.8,27,Low Nitrogen
+81,54,60,6.3,56,Healthy
+134,62,52,6.4,39,Healthy
+66,52,87,6.0,42,Healthy
+93,34,99,7.2,55,Low Phosphorus
+139,51,81,5.7,44,Healthy
+83,36,65,5.9,31,Low Phosphorus
+90,55,65,7.0,40,Healthy
+129,42,64,7.0,39,Healthy
+56,77,77,7.5,37,Low Nitrogen
+126,68,49,5.7,50,Low Potassium
+71,62,69,5.7,20,Healthy
+101,34,89,6.1,54,Low Phosphorus
+76,63,56,7.2,55,High pH
+97,56,52,6.2,40,Healthy
+66,30,97,6.4,35,Low Phosphorus
+80,78,68,7.2,50,High pH
+104,69,75,6.2,24,Healthy
+72,55,46,6.4,33,Low Potassium
+102,58,104,5.9,44,Healthy
+128,53,98,6.1,50,Healthy
+90,75,85,6.8,46,Healthy
+114,56,56,7.4,47,High pH
+112,48,55,5.9,60,Healthy
+54,65,65,7.1,35,Low Nitrogen
+133,75,94,6.8,26,Healthy
+142,65,105,6.2,34,Healthy
+82,53,45,6.8,26,Low Potassium
+80,35,43,6.0,46,Low Phosphorus
+115,66,77,6.2,41,Healthy
+51,43,50,5.8,41,Low Nitrogen
+94,54,82,5.9,45,Healthy
+77,61,77,7.5,23,High pH
+56,74,64,7.1,34,Low Nitrogen
+68,68,41,6.4,52,Low Potassium
+108,64,72,5.8,60,Healthy
+93,53,81,6.4,32,Healthy
+80,56,101,6.2,22,Healthy
+131,47,40,5.6,53,Low Potassium
+56,72,48,7.5,58,Low Nitrogen
+95,61,103,7.3,30,High pH
+79,61,88,6.8,39,Healthy
+71,66,99,7.0,47,Healthy
+72,54,84,6.6,30,Healthy
+129,39,52,7.3,47,Low Phosphorus
+73,59,102,6.3,26,Healthy
+100,51,101,5.9,25,Healthy
+98,68,79,5.8,33,Healthy
+134,41,91,5.9,40,Healthy
+141,39,100,6.7,36,Low Phosphorus
+60,70,56,6.2,33,Healthy
+132,70,108,5.7,21,Healthy
+55,73,64,6.9,26,Low Nitrogen
+93,34,107,6.2,45,Low Phosphorus
+122,53,83,6.9,46,Healthy
+114,80,44,7.4,43,Low Potassium
+54,61,68,6.9,55,Low Nitrogen
+108,41,89,5.9,59,Healthy
+119,69,101,6.7,54,Healthy
+103,55,100,5.5,56,Healthy
+142,30,96,7.0,33,Low Phosphorus
+116,55,107,7.4,22,High pH
+64,79,61,6.4,20,Healthy
+51,43,75,6.3,50,Low Nitrogen
+148,48,57,6.5,57,Healthy
+95,46,42,6.6,28,Low Potassium
+63,31,70,6.9,53,Low Phosphorus
+81,30,59,5.8,21,Low Phosphorus
+67,52,81,5.7,57,Healthy
+135,76,86,5.7,27,Healthy
+69,35,95,7.0,21,Low Phosphorus
+135,71,54,6.0,35,Healthy
+110,58,78,7.5,21,High pH
+50,44,63,6.3,25,Low Nitrogen
+59,35,97,7.0,32,Low Nitrogen
+138,41,72,6.0,48,Healthy
+113,73,102,7.2,22,High pH
+117,48,83,6.9,32,Healthy
+148,72,62,7.5,46,High pH
+81,41,61,6.1,49,Healthy
+88,31,92,5.5,54,Low Phosphorus
+78,39,44,6.7,49,Low Phosphorus
+82,49,98,6.4,49,Healthy
+67,73,76,6.6,44,Healthy
+69,35,59,7.0,53,Low Phosphorus
+134,45,75,6.0,30,Healthy
+148,75,75,6.7,32,Healthy
+60,62,95,6.4,20,Healthy
+77,73,88,7.5,40,High pH
+70,71,44,5.6,33,Low Potassium
+86,62,71,7.0,36,Healthy
+58,58,104,5.7,27,Low Nitrogen
+112,60,93,6.3,52,Healthy
+76,49,105,5.8,39,Healthy
+72,57,81,7.3,25,High pH
+52,57,85,6.4,46,Low Nitrogen
+144,38,45,7.4,37,Low Phosphorus
+53,78,109,6.3,20,Low Nitrogen
+59,33,71,6.2,25,Low Nitrogen
+105,68,102,6.5,52,Healthy
+60,73,51,6.6,46,Healthy
+51,71,109,6.6,20,Low Nitrogen
+96,74,78,7.0,20,Healthy
+62,56,109,6.1,21,Healthy
+77,68,76,5.7,42,Healthy
+139,44,71,5.6,28,Healthy
+61,59,103,6.5,50,Healthy
+60,46,83,6.7,50,Healthy
+100,72,44,6.9,57,Low Potassium
+114,34,66,6.9,42,Low Phosphorus
+78,32,101,6.2,51,Low Phosphorus
+50,44,64,5.6,35,Low Nitrogen
+145,52,53,6.5,51,Healthy
+103,79,82,7.2,23,High pH
+80,55,101,6.3,21,Healthy
+143,61,48,7.3,47,Low Potassium
+90,65,106,6.2,32,Healthy
+145,37,87,7.1,58,Low Phosphorus
+127,57,76,6.5,31,Healthy
+85,33,60,5.9,35,Low Phosphorus
+112,77,47,6.8,41,Low Potassium
+61,72,64,7.4,29,High pH
+87,37,73,7.4,54,Low Phosphorus
+102,43,63,6.5,27,Healthy
+67,30,65,6.6,55,Low Phosphorus
+100,59,86,6.2,59,Healthy
+79,52,65,5.5,33,Healthy
+100,45,41,7.2,51,Low Potassium
+103,47,83,7.2,59,High pH
+71,72,92,7.1,22,High pH
+116,63,42,6.1,57,Low Potassium
+142,50,109,6.8,51,Healthy
+55,57,69,6.0,31,Low Nitrogen
+62,78,74,6.8,29,Healthy
+56,41,49,6.0,38,Low Nitrogen
+112,34,90,7.3,50,Low Phosphorus
+67,75,67,6.1,22,Healthy
+96,44,75,7.0,43,Healthy
+116,63,65,6.9,56,Healthy
+77,80,57,7.1,51,High pH
+150,80,59,5.9,38,Healthy
+128,67,83,7.3,30,High pH
+117,55,91,6.2,43,Healthy
+113,48,85,6.1,22,Healthy
+116,70,75,6.9,45,Healthy
+109,45,45,6.6,35,Low Potassium
+95,65,66,6.6,35,Healthy
+94,35,62,7.0,49,Low Phosphorus
+73,30,54,5.5,20,Low Phosphorus
+85,58,98,6.3,21,Healthy
+75,65,59,6.9,52,Healthy
+113,57,90,6.5,43,Healthy
+118,34,96,5.7,35,Low Phosphorus
+53,45,54,6.2,47,Low Nitrogen
+133,40,52,7.5,27,High pH
+94,52,82,6.4,31,Healthy
+69,79,88,5.5,47,Healthy
+88,79,73,6.5,21,Healthy
+55,37,87,6.3,56,Low Nitrogen
+110,35,89,6.2,59,Low Phosphorus
+67,65,91,6.5,60,Healthy
+119,72,109,5.6,44,Healthy
+112,66,66,6.3,38,Healthy
+134,49,103,6.3,59,Healthy
+52,80,48,5.6,26,Low Nitrogen
+126,34,107,6.0,49,Low Phosphorus
+131,76,106,5.8,42,Healthy
+128,67,74,6.7,26,Healthy
+52,37,55,6.5,60,Low Nitrogen
+58,39,94,6.9,20,Low Nitrogen
+66,49,59,7.5,50,High pH
+93,75,105,6.0,56,Healthy
+107,71,76,6.8,38,Healthy
+99,31,48,5.7,49,Low Phosphorus
+64,56,102,6.0,50,Healthy
+130,44,95,6.3,29,Healthy
+108,66,50,6.3,27,Healthy
+85,36,109,5.9,44,Low Phosphorus
+103,78,82,6.0,21,Healthy
+139,48,103,7.2,33,High pH
+76,45,71,7.2,60,High pH
+95,51,59,6.6,27,Healthy
+84,58,83,5.9,23,Healthy
+131,70,86,6.9,21,Healthy
+123,43,62,7.2,32,High pH
+84,57,88,6.8,59,Healthy
+150,46,96,6.6,58,Healthy
+131,44,91,5.7,30,Healthy
+125,35,55,6.3,44,Low Phosphorus
+67,72,83,6.5,59,Healthy
+54,41,69,6.6,21,Low Nitrogen
+145,48,99,6.4,48,Healthy
+70,77,73,7.0,24,Healthy
+109,42,71,5.7,26,Healthy
+78,52,65,6.6,25,Healthy
+109,36,70,6.9,32,Low Phosphorus
+62,59,75,6.4,26,Healthy
+66,71,53,6.8,30,Healthy
+61,47,56,6.2,57,Healthy
+59,54,62,7.0,37,Low Nitrogen
+124,57,94,6.0,36,Healthy
+76,44,44,5.6,40,Low Potassium
+68,30,63,7.3,38,Low Phosphorus
+67,47,52,6.3,48,Healthy
+118,39,66,6.6,37,Low Phosphorus
+101,60,94,6.0,23,Healthy
+70,62,93,6.2,20,Healthy
+131,48,76,6.7,53,Healthy
+97,53,90,5.5,43,Healthy
+89,72,96,5.8,30,Healthy
+65,53,55,6.7,37,Healthy
+94,70,85,7.1,27,High pH
+103,72,100,5.9,23,Healthy
+91,60,71,6.9,20,Healthy
+110,70,87,6.9,59,Healthy
+61,72,79,7.1,51,High pH
+123,69,72,6.7,30,Healthy
+93,54,76,6.9,37,Healthy
+148,63,86,7.1,51,High pH
+99,78,60,5.8,36,Healthy
+110,69,66,5.6,36,Healthy
+99,61,42,7.5,38,Low Potassium
+102,75,41,5.8,31,Low Potassium
+72,47,84,6.6,57,Healthy
+128,67,105,6.2,57,Healthy
+108,36,93,6.4,25,Low Phosphorus
+136,37,89,5.7,55,Low Phosphorus
+113,42,82,6.6,56,Healthy
+66,38,104,5.9,41,Low Phosphorus
+98,61,77,7.1,47,High pH
+93,70,87,6.8,49,Healthy
+114,50,100,5.7,24,Healthy
+97,53,61,5.9,22,Healthy
+148,38,80,7.5,45,Low Phosphorus
+112,64,78,6.4,32,Healthy
+150,40,46,5.9,25,Low Potassium
+87,36,52,5.7,26,Low Phosphorus
+53,57,75,6.9,23,Low Nitrogen
+137,33,99,6.5,29,Low Phosphorus
+93,67,48,6.8,25,Low Potassium
+114,58,108,7.2,35,High pH
+146,80,52,6.6,60,Healthy
+99,72,110,7.4,57,High pH
+57,32,94,7.5,30,Low Nitrogen
+115,36,64,5.9,37,Low Phosphorus
+105,53,85,6.9,29,Healthy
+95,59,108,6.0,20,Healthy
+71,77,53,5.8,47,Healthy
+106,63,67,6.8,31,Healthy
+141,42,44,5.9,56,Low Potassium
+114,51,55,6.8,47,Healthy
+69,39,46,5.6,40,Low Phosphorus
+77,74,68,6.7,44,Healthy
+96,55,49,5.5,29,Low Potassium
+69,73,55,7.2,22,High pH
+137,46,71,6.2,36,Healthy
+131,58,96,5.7,55,Healthy
+114,44,51,5.7,49,Healthy
+111,49,63,6.9,54,Healthy
+73,47,66,7.0,34,Healthy
+127,49,93,6.2,32,Healthy
+76,77,72,6.8,32,Healthy
+95,35,91,6.9,38,Low Phosphorus
+87,36,50,5.8,28,Low Phosphorus
+117,52,107,7.4,43,High pH
+116,41,89,5.5,46,Healthy
+133,34,88,6.8,58,Low Phosphorus
+78,31,108,6.4,45,Low Phosphorus
+50,76,86,6.7,45,Low Nitrogen
+80,63,69,6.6,49,Healthy
+131,74,90,6.6,49,Healthy
+70,49,80,6.2,47,Healthy
+54,34,103,7.2,32,Low Nitrogen
+83,32,75,5.9,58,Low Phosphorus
+102,40,107,6.4,25,Healthy
+58,71,78,7.3,32,Low Nitrogen
+108,74,47,6.7,60,Low Potassium
+52,35,96,6.8,30,Low Nitrogen
+86,68,74,6.7,42,Healthy
+81,70,41,6.8,59,Low Potassium
+135,32,93,6.1,59,Low Phosphorus
+85,60,54,7.5,56,High pH
+62,30,79,6.5,56,Low Phosphorus
+81,56,42,6.9,21,Low Potassium
+113,70,43,6.0,56,Low Potassium
+107,39,93,6.5,32,Low Phosphorus
+117,48,57,6.4,25,Healthy
+88,51,80,5.7,38,Healthy
+112,74,72,6.6,31,Healthy
+139,31,43,6.1,47,Low Phosphorus
+62,54,102,6.5,33,Healthy
+107,75,59,6.6,33,Healthy
+62,42,41,5.8,21,Low Potassium
+112,79,58,7.4,44,High pH
+116,73,61,6.8,51,Healthy
+51,57,40,7.0,34,Low Nitrogen
+138,35,61,5.7,28,Low Phosphorus
+73,33,84,6.9,27,Low Phosphorus
+120,71,69,6.9,51,Healthy
+129,53,93,6.6,22,Healthy
+84,63,73,6.9,41,Healthy
+137,66,68,5.9,25,Healthy
+111,33,108,5.9,38,Low Phosphorus
+137,59,52,6.3,22,Healthy
+131,45,99,6.2,31,Healthy
+76,31,101,6.8,40,Low Phosphorus
+136,72,79,5.5,25,Healthy
+65,54,60,5.9,32,Healthy
+137,78,89,7.0,43,Healthy
+83,65,58,6.3,56,Healthy
+71,64,108,6.5,43,Healthy
+114,39,106,6.0,60,Low Phosphorus
+136,54,82,5.6,47,Healthy
+85,41,50,6.0,34,Healthy
+98,46,95,6.8,53,Healthy
+69,63,76,7.1,25,High pH
+118,46,58,6.7,52,Healthy
+84,76,91,5.9,56,Healthy
+98,68,64,6.6,54,Healthy
+140,30,107,6.3,36,Low Phosphorus
+82,46,78,7.0,54,Healthy
+105,52,102,6.5,28,Healthy
+68,65,92,6.4,38,Healthy
+150,41,66,7.0,45,Healthy
+125,35,93,6.5,54,Low Phosphorus
+88,65,46,6.6,49,Low Potassium
+73,61,62,7.0,28,Healthy
+81,67,85,6.7,21,Healthy
+50,43,110,6.5,60,Low Nitrogen
+82,65,79,6.8,29,Healthy
+93,69,49,7.1,21,Low Potassium
+99,73,54,7.4,28,High pH
+96,57,97,6.3,46,Healthy
+62,58,103,7.2,22,High pH
+89,37,90,6.8,46,Low Phosphorus
+60,67,83,6.5,38,Healthy
+70,48,109,6.2,37,Healthy
+54,35,46,6.3,50,Low Nitrogen
+77,56,96,6.6,59,Healthy
+134,44,76,6.2,32,Healthy
+129,76,66,6.0,31,Healthy
+112,44,40,6.1,40,Low Potassium
+76,37,107,6.1,28,Low Phosphorus
+85,41,77,6.3,31,Healthy
+141,42,101,6.1,53,Healthy
+98,48,100,7.5,36,High pH
+65,77,50,6.6,26,Healthy
+72,71,59,5.8,38,Healthy
+90,80,88,5.9,24,Healthy
+53,46,55,6.1,47,Low Nitrogen
+54,76,105,6.9,38,Low Nitrogen
+55,77,59,7.1,30,Low Nitrogen
+64,42,56,6.2,27,Healthy
+90,68,74,7.1,33,High pH

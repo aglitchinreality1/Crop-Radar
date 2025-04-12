@@ -6,35 +6,6 @@
   <title>CropRadar</title>
   <link rel="stylesheet" href="index.css">
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap" rel="stylesheet">
-  <style>
-    @media (max-width: 1024px) {
-      .section-container {
-        flex-direction: column;
-        align-items: center;
-      }
-
-      .section-box {
-        width: 90%;
-        margin-bottom: 20px;
-      }
-    }
-
-    @media (max-width: 768px) {
-      .navbar {
-        flex-direction: column;
-        height: auto;
-        padding: 15px 10px;
-        gap: 10px;
-      }
-
-      .navbar-right {
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 10px;
-        font-size: 1rem;
-      }
-    }
-  </style>
 </head>
 <body>
   <!-- Navbar -->
@@ -55,7 +26,7 @@
       <h2>Nutrient Analysis</h2>
       <img src="cropai.png" alt="AI Analysis" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px;">
       <p style="margin-top: 15px; font-size: larger;">Input field data manually or auto-collect from sensors. Let our AI detect nutrient imbalances in seconds.</p>
-      <button class="action-btn">Analyse Now</button>
+      <button class="action-btn" onclick="location.href='./predict.html'">Analyse Now</button>
     </div>
   
     <!-- Field Drone Control Box -->
@@ -67,7 +38,7 @@
     </div>
   
     <!-- Crop Explorer Box -->
-    <div class="section-box">
+    <div class="section-box x">
       <h2>Crop Explorer</h2>
       <img src="disease.jpg" alt="Crop Info" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px;">
       <p style="margin-top: 15px; font-size: larger;">Browse common crops, identify vulnerabilities, and learn how to keep them thriving with AI-backed insights.</p>

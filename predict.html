@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CropRadar</title>
+  <link rel="stylesheet" href="predict.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <div class="navbar">
+    <div class="navbar-left">
+      <img src="icon.svg" alt="Logo" class="logo"> <!-- optional logo -->
+      <span class="title">CropRadar</span>
+    </div>
+    <div class="navbar-right">
+      <span id="weather">🌤️ Loading weather...</span>
+      <span id="time">⏰ --:--:--</span>
+    </div>
+  </div>
+
+  <div class="big-section-box">
+    <h2>Nutrient Health Prediction</h2>
+    <div class="prediction-container">
+      <div class="field-selector">
+        <h2>Your Fields</h2>
+        <div class="field-grid">
+          <div class="field-box">Field 1</div>
+          <div class="field-box">Field 2</div>
+          <div class="field-box">Field 3</div>
+          <div class="field-box">Field 4</div>
+        </div>
+      </div>
+    
+      <div class="ai-results">
+        <h2>AI Results</h2>
+        <div class="ai-result-content">
+          <p class="default-text" id="ai-placeholder">Select a field</p>
+        
+          <div class="field-selected" id="ai-result" style="display: none;">
+            <p><strong id="selected-field-text" style="font-weight: bolderS;">SELECTED: Field 1</strong></p>
+            <button class="scan-btn" id="scanBtn">Scan now</button>
+          </div>
+          <div id="result-table" class="result-table hidden">
+            <table>
+              <thead>
+                <tr>
+                  <th>Nitrogen (N)</th>
+                  <th>Phosphorus (P)</th>
+                  <th>Potassium (K)</th>
+                  <th>pH Level</th>
+                  <th>Moisture</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr id="nutrient-values">
+                  <!-- Values will be injected via JS -->
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div id="condition-result" class="hidden-left">
+            <div class="result-label">RESULT</div>
+            <div id="condition-text" style="background-color: rgba(0, 0, 0, 0.367);">Result will appear here!</div>
+          </div>
+          
+
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="bottom-fade"></div>
+  
+  <script src="predict.js"></script>
+</body>
+</html>
