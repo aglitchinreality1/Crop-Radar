@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CropRadar</title>
+  <link rel="stylesheet" href="drone.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <div class="navbar">
+    <div class="navbar-left">
+      <img src="icon.svg" alt="Logo" class="logo"> <!-- optional logo -->
+      <span class="title">CropRadar</span>
+    </div>
+    <div class="navbar-right">
+      <span id="weather">🌤️ Loading weather...</span>
+      <span id="time">⏰ --:--:--</span>
+    </div>
+  </div>
+
+  <div class="big-section-box">
+    <h2>Drone Manager</h2>
+    <div class="prediction-container">
+      <div class="field-selector">
+        <h2>Your Fields</h2>
+        <div class="field-grid">
+          <div class="field-box">Field 1</div>
+          <div class="field-box">Field 2</div>
+          <div class="field-box">Field 3</div>
+          <div class="field-box">Field 4</div>
+        </div>
+      </div>
+    
+      <div class="drone-select">
+        <h2>Select Drones</h2>
+        <div id="drone-status" class="drone-status-text">Select field</div>
+      
+        <div id="drone-action-bar" class="hidden drone-action-bar">
+          <span id="drone-selected-field" class="selected-field-label">SELECTED: Field X</span>
+          <select id="problem-selector" class="problem-dropdown">
+            <option disabled selected>Select Problem</option>
+            <option>Supply water</option>
+            <option>Pesticide spray</option>
+            <option>Scatter nutrients</option>
+            <option>Remove weeds</option>
+            <option>Survey crop health</option>
+          </select>
+        </div>
+
+        <div id="drone-display">
+            <div id="drone-img"></div>
+            <div id="drone-info">
+              <div id="drone-name">Drone Name</div>
+              <div id="drone-desc">What it does...</div>
+              <button id="deploy-btn">Deploy Drones</button>
+              <div id="loading-bar"></div>
+            </div>
+          </div>
+          
+
+      </div>
+
+    </div>
+  </div>
+
+  <div class="bottom-fade"></div>
+  
+  <script src="drone.js"></script>
+</body>
+</html>

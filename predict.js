@@ -96,15 +96,13 @@ function updateTime() {
         resultText.style.backgroundColor = "rgba(255, 94, 66, 0.69)"; // Mild red
         resultText.style.color = "rgb(0, 0, 0)"
       }
-  
-      // // Reveal the result div
-      // resultBox.classList.remove('hidden-left');
-  
       scanning = 1;
     }
   });
   
 
+
+//Decision tree logic
 function getSoilCondition(nitrogen, phosphorus, potassium, ph, moisture) {
   if (phosphorus <= 39.5) {
       if (nitrogen <= 60) {

@@ -114,13 +114,13 @@ body {
   }
   
   .field-selector,
-  .ai-results {
+  .drone-select {
     flex: 1;
     min-width: 300px;
   }
   
   .field-selector h2,
-  .ai-results h2 {
+  .drone-select h2 {
     font-size: 1.4rem;
     font-weight: 800;
     color: #000000;
@@ -158,157 +158,164 @@ body {
     background-color: #cce5ac;
   }
   
-
-  .ai-result-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+  .drone-status-text {
+    font-size: 1.2rem;
     text-align: center;
-  }
-  
-  .default-text {
-    font-size: 1.3rem;
-    color: #000;
+    color: #000000;
     font-weight: bold;
   }
   
-  .field-selected {
+  .drone-action-bar {
     display: flex;
     align-items: center;
-    gap: 20px;
-    animation: slideFade 0.4s ease forwards;
-    margin-top: 10px;
-    justify-content: flex-start;
-    width: 100%;
+    gap: 10px;
   }
   
+  .selected-field-label {
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-weight: bolder;
+  }
   
-  .scan-btn {
+  .problem-dropdown {
     flex: 1;
-    background-color: #000;
-    color: #fff;
-    padding: 12px 20px;
-    font-weight: bold;
+    padding: 8px 12px;
+    background-color: black;
+    color: white;
     border: none;
-    border-radius: 8px;
-    font-family: 'Orbitron', sans-serif;
+    border-radius: 6px;
+    font-weight: bold;
     cursor: pointer;
-    transition: all 0.3s ease;
+    font-family: 'Orbitron', sans-serif;
+  }
+  
+  .problem-dropdown option {
+    background-color: #b4d08b;
+    color: #000000;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
     text-align: center;
-  }
-  
-  .scan-btn:hover {
-    background-color: #fff;
-    color: #000;
-    border: 1px solid #000;
-  }
-  
-  @keyframes slideFade {
-    from {
-      opacity: 0;
-      transform: translateX(30px);
-    }
-    to {
-      opacity: 1;
-      transform: translateX(0);
-    }
-  }
-  
-  @media (max-width: 768px) {
-    .big-section-box{
-      margin-bottom: 120px;
-    }
-
-    #result-table {
-      overflow-x: auto; /* Enable horizontal scrolling */
-      white-space: nowrap; /* Prevent the table from wrapping */
-    }
-  
-    #result-table td, #result-table th {
-      min-width: 120px; /* Set a minimum width for table cells to ensure they don't get compressed */
-    }
   }
   
   .hidden {
     display: none;
   }
   
-  .result-table {
-    margin-top: 20px;
-    animation: fadeIn 0.5s ease forwards;
-    width: 100%;
-    overflow-x: hidden;
-    border-radius: 10px;
+  #drone-display {
+    margin-top: 30px;
+    display: none;
+    opacity: 0;
+    transition: opacity 0.6s ease;
   }
   
-  .result-table table {
-    width: 100%;
-    border-collapse: collapse;
-    text-align: center;
-    font-family: 'Orbitron', sans-serif;
-  }
-  
-  .result-table th {
-    background-color: #000;
-    color: white;
-    padding: 12px;
-    font-size: 1rem;
-  }
-  
-  .result-table td {
-    background-color: #b4d08b;
-    color: #2c421e;
-    padding: 12px;
-    font-weight: bold;
-    border-bottom: 2px solid #557c3e;
-    font-size: 1rem;
-  }
-  
-  @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(10px); }
-    to { opacity: 1; transform: translateY(0); }
-  }
-  
-
-  .hidden-left {
-    display: none; /* Keeps it hidden initially */
-  }
-  
-  #condition-result {
+  #drone-display.visible {
     display: flex;
-    margin-top: 1rem;
-    width: 100%;
+    gap: 30px;
+    align-items: flex-start;
+    opacity: 1;
+  }
+  
+  #drone-img {
+    width: 200px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
     border-radius: 10px;
-    overflow: hidden;
-    align-items: center; /* Centers content vertically */
+    flex-shrink: 0;
   }
   
-  #condition-result div {
-    display: flex;
-    justify-content: center; /* Centers content horizontally */
-    align-items: center; /* Centers content vertically */
-    padding: 10px;
-  }
-  
-  #condition-result .result-label {
+  #drone-info {
     flex: 1;
-    background-color: black;
-    color: white;
+    display: flex;
     text-align: center;
+    justify-content: center;
+    flex-direction: column;
   }
   
-  #condition-text {
-    flex: 3;
-    padding: 10px;
-    text-align: left;
+  #drone-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  #drone-desc {
+    font-size: 1.1rem;
+    color: #000000;
+  }
+  
+  #deploy-btn {
+    margin-top: 20px;
+    padding: 12px 20px;
+    font-size: 1rem;
+    background-color: #a7dd74;
+    border: 2px solid black;
     color: black;
-    border-radius: 10px;
-    margin: 5px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: transform 0.2s ease;
+  }
+  
+  #deploy-btn:hover {
+    transform: scale(1.05);
+  }
+  
+  #loading-bar {
+    margin-top: 20px;
+    width: 0%;
+    height: 40px;
+    background-color: #88c057;
+    border: 2px solid black;
+    border-radius: 6px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    line-height: 20px;
+    transition: width 0.3s ease;
+    display: none;
+  }
+  
+  #loading-bar.show {
+    display: block;
   }
   
 
-.result-label{
-  border-radius: 10px;
-}
+  @media (max-width: 768px) {
+    .big-section-box{
+        margin-bottom: 100px;
+    }
+
+    .problem-dropdown{
+        width: 70px;
+    }
+    
+    #drone-display {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    #drone-img {
+      width: 100%;
+      height: 200px; /* adjust as needed */
+    }
+  
+    #drone-info {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+  
+    #drone-name {
+      font-size: 1.2rem;
+      margin-bottom: 8px;
+    }
+  
+    #deploy-btn {
+      margin-top: 12px;
+    }
+  
+    #loading-bar {
+      margin-top: 12px;
+    }
+  }
