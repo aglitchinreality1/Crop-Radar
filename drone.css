@@ -116,7 +116,7 @@ body {
   .field-selector,
   .drone-select {
     flex: 1;
-    min-width: 300px;
+    min-width: 250px;
   }
   
   .field-selector h2,
