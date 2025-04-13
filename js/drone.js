@@ -56,27 +56,27 @@ const statusText = document.getElementById('drone-status-text');
 const droneInfo = {
     "Supply water": {
       name: "Water Drone",
-      image: "irigation.webp", // replace with real path
+      image: "images/irigation.webp", // replace with real path
       desc: "Sprays water efficiently across your crops, ensuring uniform hydration even in hard-to-reach field areas. Ideal for optimizing irrigation without manual effort."
     },
     "Pesticide spray": {
       name: "Pesticide Drone",
-      image: "pesticide.webp", // replace with real path
+      image: "images/pesticide.webp", // replace with real path
       desc: "Covers fields with targeted pesticide treatment, reducing chemical usage and protecting crops from pests with precision spraying."
     },
     "Scatter nutrients": {
       name: "Nutrient Drone",
-      image: "nutrients.jpg", // replace with real path
+      image: "images/nutrients.jpg", // replace with real path
       desc: "Scatters fertilizers or micronutrients evenly across the land, improving soil quality and promoting healthy plant growth with minimal waste."
     },
     "Remove weeds": {
       name: "Weed Drone",
-      image: "weed.webp", // replace with real path
+      image: "images/weed.webp", // replace with real path
       desc: "Uses precision spraying to eliminate weeds without harming nearby crops. A smart and efficient alternative to manual or chemical-heavy methods."
     },
     "Survey crop health": {
       name: "Surveillance Drone",
-      image: "camera.jpg", // replace with real path
+      image: "images/camera.jpg", // replace with real path
       desc: "Captures aerial images and real-time data to assess crop health, detect diseases early, and monitor growth patterns across large fields."
     }
   };

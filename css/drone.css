@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url('background.webp');
+    background-image: url('../images/background.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -138,7 +138,7 @@ body {
   .field-box {
     background: 
       linear-gradient(rgba(180, 208, 139, 0.7), rgba(184, 255, 77, 0.7)),
-      url('crops.jpg') center/cover no-repeat;
+      url('../images/crops.jpg') center/cover no-repeat;
     border: 2px dashed #2e1200;
     height: 120px;
     display: flex;
@@ -222,6 +222,7 @@ body {
     background-position: center;
     border-radius: 10px;
     flex-shrink: 0;
+    border: 5px black solid;
   }
   
   #drone-info {

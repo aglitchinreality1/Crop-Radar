@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CropRadar</title>
+  <link rel="stylesheet" href="css/crop.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <div class="navbar">
+    <div class="navbar-left">
+      <img src="images/icon.svg" alt="Logo" class="logo"> <!-- optional logo -->
+      <span class="title">CropRadar</span>
+    </div>
+    <div class="navbar-right">
+      <span id="weather">🌤️ Loading weather...</span>
+      <span id="time">⏰ --:--:--</span>
+    </div>
+  </div>
+
+  <div class="big-section-box">
+    <h2>Crop Catalogue</h2>
+
+    <div class="catalogue-grid">
+        <!-- Crop 1 -->
+        <div class="catalogue-item">
+            <div class="crop-name">Wheat</div>
+            <div class="crop-description">A staple crop grown worldwide, providing food for millions.</div>
+            <div class="disease-name">Rust Disease</div>
+        </div>
+        <!-- Crop 2 -->
+        <div class="catalogue-item">
+            <div class="crop-name">Rice</div>
+            <div class="crop-description">An essential crop grown primarily in wetland areas, feeding a large population.</div>
+            <div class="disease-name">Rice Blast</div>
+        </div>
+        <!-- Crop 3 -->
+        <div class="catalogue-item">
+            <div class="crop-name">Maize</div>
+            <div class="crop-description">Also known as corn, this crop is essential for food, fodder, and industrial uses.</div>
+            <div class="disease-name">Maize Leaf Blight</div>
+        </div>
+        <!-- Crop 4 -->
+        <div class="catalogue-item">
+            <div class="crop-name">Barley</div>
+            <div class="crop-description">Barley is used for food, for feeding animals, and brewing alcohol.</div>
+            <div class="disease-name">Yellow Dwarf Virus</div>
+        </div>
+        <!-- Crop 5 -->
+        <div class="catalogue-item">
+            <div class="crop-name">Soybean</div>
+            <div class="crop-description">Soybeans are crucial for oil production, protein-rich food, and as animal feed.</div>
+            <div class="disease-name">Soybean Rust</div>
+        </div>
+        <!-- Crop 6 -->
+        <div class="catalogue-item">
+            <div class="crop-name">Cotton</div>
+            <div class="crop-description">Cotton is a major crop used for textiles and various industrial products.</div>
+            <div class="disease-name">Cotton Leaf Curl Virus</div>
+        </div>
+    </div>
+
+  </div>
+  <div class="bottom-fade"></div>
+  
+  <script src="js/crop.js"></script>
+</body>
+</html>
